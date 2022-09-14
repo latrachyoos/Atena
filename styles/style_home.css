@@ -1,0 +1,174 @@
+body{
+margin: 0;
+font-size: 20px;
+font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+
+}
+
+#contenitore{
+    max-width: 1200px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    align-items: center;
+    align-self: flex-end;
+
+
+
+}
+#check_main_mobile, #check_main_mobile_lines{
+    display: None;
+    padding:20px 0px 20px 20px
+
+
+}
+#check_main_mobile_lines div {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 50px;
+  }
+
+
+#logo_footer{
+    width: 4rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    
+    
+
+
+
+
+
+}
+
+nav ul a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right:10px ;
+    text-transform: uppercase;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+#btn_cerca{
+background-color: transparent;
+border:none;
+font-size: 25px;
+
+
+}
+#cerca{
+    color: black;
+    
+
+
+
+}
+
+
+
+@media (max-width:950px){
+    #logo_footer{
+        width: 3.5rem;
+    
+    
+    
+    }
+    #check_main_mobile_lines{
+        display: block;
+    }
+    
+    #main{
+        
+        width: 100%;
+        height: 100%;
+        top:85px;
+        display:flex;
+        flex-direction: column;
+        position:fixed;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 30px;
+        background-color: rgba(119, 160, 196, 0.822);
+        left:-500px;
+        z-index: 1;
+        transition: all .5s;
+        
+        
+        
+    }
+    #main li{
+        margin-top:30px
+    }
+
+
+    #check_main_mobile:checked ~ #check_main_mobile_lines div{
+        transition: all .5s;
+    }
+    #check_main_mobile:checked ~ #check_main_mobile_lines{
+        margin-top:10px;
+        padding-bottom:10px ;
+    }
+   
+    #check_main_mobile:checked ~ #check_main_mobile_lines div:nth-child(1){
+        transform: rotate(45deg) translate(-5px, -2px);
+        
+        
+    
+    
+      }
+    #check_main_mobile:checked ~ #check_main_mobile_lines div:nth-child(2){
+        transform: rotate(-45deg) translate(9px, -10px);
+        
+    
+    
+      }
+      #check_main_mobile:checked ~ #check_main_mobile_lines div:nth-child(3){
+       opacity:0 ;
+        
+    
+    
+      }
+
+      #check_main_mobile:checked ~ #main{
+        left:50%
+      }
+
+    
+
+
+
+
+
+
+}
