@@ -178,12 +178,16 @@ font-size: 25px;
 #big_notice_read_more{
         
         
-    margin-top:15px;}
+    margin-top:20px;
+    margin-bottom:15px;
+}
 
 #big_notice_read_more a{
+
     padding: 5px 10px;
     border-radius: 25px;
     border:2px solid white;
+    
 
 }
 
@@ -213,7 +217,7 @@ font-size: 25px;
         left: 50%;
         transform: translate(-50%);
         font-size: 30px;
-        background-color: rgba(119, 160, 196, 0.822);
+        background-color: #0e2435f5;
         left:-500px;
         z-index: 1;
         transition: all .5s;
@@ -223,6 +227,12 @@ font-size: 25px;
     }
     #main li{
         margin-top:30px;
+
+        
+    }
+    #main li a{
+        color:white;
+        
         
     }
 
@@ -274,6 +284,26 @@ font-size: 25px;
     
 
 
+
+
+
+
+}
+
+@media (max-width:700px){
+    #main{
+
+
+        text-align: left;
+        font-size: 18px;
+        
+    }
+
+    #main li{
+        margin-left:20px;
+
+        
+    }
 
 
 
