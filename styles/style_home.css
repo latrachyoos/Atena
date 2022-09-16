@@ -46,7 +46,7 @@ nav{
     display: none;
 }
 
-#logo_footer{
+#logo_header{
     width: 4rem;
 }
 
@@ -60,6 +60,17 @@ nav ul{
     
 
 
+
+
+
+}
+
+.mini_title_cat{
+    color: white;
+    margin-left:10px;
+    font-weight:bold;
+    margin-bottom: 0px;
+    display: none;
 
 
 
@@ -195,7 +206,7 @@ font-size: 25px;
 
 @media (max-width:950px){
 
-    #logo_footer{
+    #logo_header{
         width: 3.5rem;
     
     
@@ -278,6 +289,10 @@ font-size: 25px;
         
         
     
+    }
+
+    .mini_title_cat{
+        display: block;
     }
 
     
