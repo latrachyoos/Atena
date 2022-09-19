@@ -276,6 +276,7 @@ font-size: 25px;
 }
 
 #news_letter{
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
