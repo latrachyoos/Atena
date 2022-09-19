@@ -235,7 +235,7 @@ font-size: 25px;
     font-size: 80%;
     padding: 15px;
     border-radius: 25px;
-    background-color: #0e243548;
+    background-color: #d1e2f5;
     margin: 10px;
     justify-content: center;
     align-items: center;
@@ -282,8 +282,9 @@ font-size: 25px;
     
     justify-content: space-between;
     padding: 30px;
-    background-color: #0e243548;
+    background-color: #d1e2f5;
     border-radius: 50px;
+    border: 2px solid #356281;
     margin: 20px !important;
 
     
@@ -295,7 +296,8 @@ font-size: 25px;
 #bottone_news_letter{
     border-radius: 25px;
     border:0px;
-    padding: 10px 20px;
+    padding: 10px 30px;
+    margin:15px;
 
 
 }
@@ -442,7 +444,7 @@ footer{
         
         justify-content: center;
         padding: 30px;
-        background-color: #0e243548;
+        border: 2px solid #356281;
         border-radius: 50px;
         margin: 20px;
         
@@ -452,14 +454,7 @@ footer{
 
     }
 
-    #bottone_news_letter{
-        border-radius: 50px;
-        padding: 10px 30px;
-        border: 0px;
-
-
-    }
-    
+   
 
 
     
