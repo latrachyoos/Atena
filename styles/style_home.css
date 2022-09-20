@@ -255,7 +255,7 @@ body{
     
     .img_post{
         width: 100%;
-        border-radius: 15px;
+        
     
     
     
@@ -427,7 +427,7 @@ body{
         }
         .post{
             width: 90%;
-            font-size: 70%;
+            font-size: 60%;
             display: flex;
             flex-direction: row-reverse;
             border:0px solid black;
