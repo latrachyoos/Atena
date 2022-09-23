@@ -140,7 +140,7 @@ body{
     
     }
     #big_notice a, #big_notice {
-        color:black;
+        color:rgb(255, 255, 255);
     
         
         
@@ -169,7 +169,7 @@ body{
         
         padding:30px;
         text-align: left;
-        background-color: #d1e2f567;
+        background-color: #9abee7e1;
        
         border: 2px solid #356281;
         
@@ -183,7 +183,7 @@ body{
         width: 90%;
         margin-bottom: 20px;
         height: 3px;
-        background-color:black;
+        background-color:rgb(255, 255, 255);
         border:0px;
         border-radius: 25px;
     }
@@ -216,7 +216,7 @@ body{
     
         padding: 5px 10px;
         border-radius: 25px;
-        border:2px solid BLACK;
+        border:2px solid rgb(255, 255, 255);
         
     
     }
