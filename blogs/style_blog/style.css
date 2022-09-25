@@ -20,7 +20,7 @@ body{
         min-width: 400px;
         margin-left: auto;
         margin-right: auto;
-        z-index: -1;
+        z-index: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -51,7 +51,7 @@ body{
         top:0;
         background-color: white;
         
-        z-index:3
+        z-index:2
     }
     #check_main_mobile, #check_main_mobile_lines{
         display: None;
@@ -258,12 +258,15 @@ body{
         margin: 10px;
         justify-content: center;
         align-items: center;
-        border:2px solid black
+        border:2px solid black;
+        z-index: 3;
+        
         
     
     
     
     }
+    
     .tex_post_phone{
         display: None;
     }
@@ -337,7 +340,7 @@ body{
             font-size: 30px;
             background-color: #0e2435f5;
             left:-500px;
-            z-index: 1;
+            
             transition: all .5s;
             
             
