@@ -191,7 +191,8 @@ body{
     }
 
     .tag_tags{
-        padding: 2px;
+        
+        padding: 5px;
         background-color: #61a8df;
         border-radius: 5px;
         margin-left: 10px;
