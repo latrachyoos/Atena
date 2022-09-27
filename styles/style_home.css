@@ -320,6 +320,12 @@ body{
     footer{
         margin:20px
     }
+
+    .tag_phone{
+        text-decoration: underline;
+        margin:0;
+        padding: 0;
+    }
     
     
     
@@ -432,6 +438,10 @@ body{
             align-items: center;
             justify-content: center;
         }
+        .redirect_post{
+            width: 100%;
+
+        }
         .post{
             width: 90%;
             font-size: 70%;
@@ -440,6 +450,7 @@ body{
             border:0px solid black;
             margin: 0px;
             align-items: flex-start;
+            justify-content: space-between;
             
     
             
@@ -475,7 +486,8 @@ body{
         }
 
         .tex_post_phone{
-            display: block;
+            display: Block;
+            position: relative;
         }
      
     
