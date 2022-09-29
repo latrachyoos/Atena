@@ -401,6 +401,7 @@ body{
             border:0px solid black;
             margin: 0px;
             align-items: flex-start;
+            justify-content: space-between;
             
     
             

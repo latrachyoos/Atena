@@ -326,6 +326,11 @@ body{
         margin:0;
         padding: 0;
     }
+
+    #read_all_article{
+        text-align: center;
+        margin: 10px;
+    }
     
     
     
@@ -450,6 +455,7 @@ body{
             border:0px solid black;
             margin: 0px;
             align-items: flex-start;
+            
             justify-content: space-between;
             
     
